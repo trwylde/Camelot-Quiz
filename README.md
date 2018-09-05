@@ -1,2 +1,1 @@
-# TriviaGame
-A Trivia Game using JavaScript.
+This is a timed trivia game using JavaScript. 
