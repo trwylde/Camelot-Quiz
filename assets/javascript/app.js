@@ -79,8 +79,44 @@ var questions = [
   options: ["Gaheris","Agravain","Caradoc","Segwarides"],
   answer: "Gaheris",
   image:"assets/images/favicon.png"
-},
+}];
 
-]
+var quiz = {
+  questions:questions,
+  currentQuestion:0,
+  counter:30,
+  correct:0,
+  incorrect:0,
+  countdown: function() {
+
+  },
+  loadQuestion: function()  {
+
+  },
+  nextQuestion: function()  {
+
+  },
+  timeUp: function()  {
+
+  },
+  results: function() {
+
+  },
+  clicked: function() {
+
+  },
+  answeredCorrectly() {
+
+  },
+  answeredIncorrectly() {
+
+  },
+  reset: function() {
+
+  }
+
+}
+
+
 
 
