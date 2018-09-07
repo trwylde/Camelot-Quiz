@@ -1,8 +1,10 @@
-/*  font-family: 'Cookie', cursive;
-    font-family: 'Tangerine', cursive;  */
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Cookie', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Amita', cursive; */
 
 
-/*#startButton{
+#startButton{
   background-color: #30bbb4;
   color: rgb(255, 255, 255);
   font-family: 'Tangerine', cursive;
@@ -13,42 +15,78 @@
   text-shadow: 2px 2px 4px black, 0 0 25px rgb(42, 42, 156), 0 0 5px darkblue;
   box-shadow: 4px 4px 8px black, 0 0 20px rgb(42, 42, 156), 0 0 14px darkblue;
   border-radius: 50px;
-} */
+  margin-top: 30px;
+} 
 
-/* body {
+body {
   background-image: url("../images/camelot.png");
   background-repeat: no-repeat;
   background-position: cover;
   background-size: 100%;
   color: rgb(121, 252, 213);
-  font-family: 'Cookie', cursive;
+  font-family: 'Tangerine', cursive;
+  font-weight: 900;
   text-shadow: 4px 4px 8px black, 0 0 20px rgb(42, 42, 156), 0 0 14px darkblue;
   text-align: center;
-
   }  
 
+#quizHeader {
+  font-weight: 700;
+  font-size: 80px;
+}
+
+#instructions {
+  font-weight: 800;
+  font-size: 40px;
+  width: 98%;
+}
 .jumbotron {
   background-color: rgba(248, 243, 85, 0);
   opacity: .7;
   margin-left: auto;
-  margin-right: -140px;
   width: 60%;
 }
 
 #gameDisplay {
-  width: 70%;
+  width: 95%;
   margin-left: auto;
-  margin-right: -90px;
+  margin-right: -100px;
+  margin-top: -50px;
+  font-family: 'Amita', cursive;
+  color: rgb(121, 252, 213);
+  font-weight: 800;
+  font-size: 30px;
 }
 h1 {
-  font-size: 74px;
+  font-size: 84px;
 }
 
-h2 {
-  font-size: 40px;
+.option-button {
+  background-color: #600f8f;
+  color: rgb(255, 255, 255);
+  font-family: 'Tangerine', cursive;
+  font-size: 42px;
+  height: 70px;
+  width: 95%;
+  text-shadow: 2px 2px 4px black, 0 0 25px rgb(42, 42, 156), 0 0 5px darkblue;
+  box-shadow: 4px 4px 8px black, 0 0 20px rgb(42, 42, 156), 0 0 14px darkblue;
+  border-radius: 50px;
+  margin: 10px auto 10px auto;
 }
 
-.btn-outline-info {
+#reset {
+  background-color: #30bbb4;
+  color: rgb(255, 255, 255);
+  font-family: 'Amita', cursive;
+  font-size: 52px;
+  font-weight: 800;
+  height: 120px;
+  width: 240px;
+  text-shadow: 2px 2px 4px black, 0 0 25px rgb(42, 42, 156), 0 0 5px darkblue -2px -2px 0 black;
+  box-shadow: 4px 4px 8px black, 0 0 20px rgb(42, 42, 156), 0 0 14px darkblue;
+  border-radius: 50px;
+}
+/* .btn-outline-info {
   background-color: rgb(232, 198, 252);
   opacity: .6;
   text-align: center;
