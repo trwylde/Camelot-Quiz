@@ -86,6 +86,13 @@ h1 {
   box-shadow: 4px 4px 8px black, 0 0 20px rgb(42, 42, 156), 0 0 14px darkblue;
   border-radius: 50px;
 }
+
+#imageDisplay {
+  width: 240px;
+  height: auto;
+  margin-top: 30px;
+}
+
 /* .btn-outline-info {
   background-color: rgb(232, 198, 252);
   opacity: .6;
